@@ -1,15 +1,15 @@
 import com.codeborne.selenide.Configuration;
 import org.junit.Before;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.RegisterPage;
+import pages.LoginPage;
+import pages.MainPage;
+import pages.RegisterPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 
-import static pageObject.LinkUrl.BASE_URL;
+import static pages.LinkUrl.BASE_URL;
 import static com.codeborne.selenide.Selenide.*;
-import static pageObject.LinkUrl.*;
+import static pages.LinkUrl.*;
 
 public class RegistrationTest {
 

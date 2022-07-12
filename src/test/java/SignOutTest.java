@@ -5,15 +5,15 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.ProfilePage;
+import pages.LoginPage;
+import pages.MainPage;
+import pages.ProfilePage;
 
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
-import static pageObject.LinkUrl.LOGIN_PAGE_URL;
+import static pages.LinkUrl.LOGIN_PAGE_URL;
 
 public class SignOutTest {
     private UserOperations userOperations;

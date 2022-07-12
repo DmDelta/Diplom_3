@@ -1,9 +1,9 @@
 import com.UserOperations;
 import com.codeborne.selenide.Configuration;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.RegisterPage;
-import pageObject.RestorePasswordPage;
+import pages.LoginPage;
+import pages.MainPage;
+import pages.RegisterPage;
+import pages.RestorePasswordPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
@@ -12,7 +12,7 @@ import org.junit.Test;
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.*;
-import static pageObject.LinkUrl.*;
+import static pages.LinkUrl.*;
 
 public class LoginTest {
     private UserOperations userOperations;

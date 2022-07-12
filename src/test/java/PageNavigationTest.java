@@ -1,20 +1,17 @@
 import com.UserOperations;
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.ProfilePage;
+import pages.LoginPage;
+import pages.MainPage;
 
 import java.util.Map;
 
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
-import static pageObject.LinkUrl.*;
+import static pages.LinkUrl.*;
 
 public class PageNavigationTest {
     private UserOperations userOperations;

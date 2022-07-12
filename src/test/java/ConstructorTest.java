@@ -3,10 +3,10 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Before;
 import org.junit.Test;
-import pageObject.MainPage;
+import pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
-import static pageObject.LinkUrl.BASE_URL;
+import static pages.LinkUrl.BASE_URL;
 
 public class ConstructorTest {
 

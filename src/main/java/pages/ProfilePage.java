@@ -1,4 +1,4 @@
-package pageObject;
+package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;

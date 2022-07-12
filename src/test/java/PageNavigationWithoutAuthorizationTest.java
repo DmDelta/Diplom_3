@@ -3,13 +3,13 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Before;
 import org.junit.Test;
-import pageObject.LoginPage;
-import pageObject.MainPage;
+import pages.LoginPage;
+import pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
-import static pageObject.LinkUrl.BASE_URL;
-import static pageObject.LinkUrl.LOGIN_PAGE_URL;
+import static pages.LinkUrl.BASE_URL;
+import static pages.LinkUrl.LOGIN_PAGE_URL;
 
 public class PageNavigationWithoutAuthorizationTest {
     @Before
